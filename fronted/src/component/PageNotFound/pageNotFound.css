@@ -1,0 +1,12 @@
+.pageNoteFoundHeading{
+    position:absolute;
+    width:100vw;
+    height:100vh;
+    background:white;
+    font:400 2vmax "Roboto";
+    display:grid;
+    place-items:center;
+    text-align:center;
+
+}
+

@@ -1,0 +1,28 @@
+.aboutContainer{
+    position:absolute;
+    width:100vw;
+    height:100vh;
+    background:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.aboutContainer > img{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    border:1px solid black;
+    margin:4px;
+    object-fit:cover;
+}
+.aboutContainer > p{
+    font:300 2vmax "Roboto";
+    padding:5px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+   
+}

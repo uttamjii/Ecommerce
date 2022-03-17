@@ -1,0 +1,31 @@
+
+.contactHeading{
+    position:absolute;
+    width:100vw;
+    height:100vh;
+    background:white;
+    font:400 2vmax "Roboto";
+    display:grid;
+    place-items:center;
+    text-align:center;
+
+}
+
+.contactHeading >a {
+    padding:2vmax;
+    color:black;
+    border-radius:4px;
+    transition:all 0.5s;
+    text-decoration:none;
+}
+
+.contactHeading >a:hover {
+   background:rgba(54, 53, 53, 0.055);
+}
+
+
+@media screen and (max-width: 600px) {
+    .contactHeading{
+        font:400 4vmax "Roboto";
+    }
+}
